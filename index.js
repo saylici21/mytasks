@@ -1,6 +1,6 @@
 import  Express  from "express"
 import mongoose from "mongoose"
-// import Tasks from "./model/tasksModel.js";
+import Tasks from "./model/tasksModel.js";
 
 const app = Express()
 const port=5555;

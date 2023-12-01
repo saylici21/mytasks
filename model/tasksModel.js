@@ -1,15 +1,15 @@
 import mongoose from 'mongoose'
 const tasksSchema=mongoose.Schema({
     title:{
-        type:string,
+        type:String,
         required:[true,'Title is required'],
     },
     date:{
-        type:string,
+        type:String,
         required:[true,'Date is required'],
     },
     finished:{
-        type:boolean,
+        type:Boolean,
         default:false
 }
 })
